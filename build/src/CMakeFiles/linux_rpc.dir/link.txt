@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/amoureux/amoureux/linux_rpc/lib/liblinux_rpc.a CMakeFiles/linux_rpc.dir/Logger.cc.o CMakeFiles/linux_rpc.dir/MprpcApplication.cc.o CMakeFiles/linux_rpc.dir/MprpcChannel.cc.o CMakeFiles/linux_rpc.dir/MprpcConfig.cc.o CMakeFiles/linux_rpc.dir/MprpcContoller.cc.o CMakeFiles/linux_rpc.dir/RpcProvider.cc.o CMakeFiles/linux_rpc.dir/ZooKeeper.cc.o CMakeFiles/linux_rpc.dir/rpcheader.pb.cc.o
+/usr/bin/ranlib /home/amoureux/amoureux/linux_rpc/lib/liblinux_rpc.a

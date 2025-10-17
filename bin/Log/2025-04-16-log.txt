@@ -1,0 +1,44 @@
+[2025-04-16 16:50:07] first log message!
+[2025-04-16 16:50:07] /home/amoureux/amoureux/linux_rpc/example/callee/FriendService.cc-main-60
+[2025-04-16 16:57:13][ERROR] first log message!
+[2025-04-16 16:57:13][INFO] /home/amoureux/amoureux/linux_rpc/example/callee/FriendService.cc-main-60
+[2025-04-16 16:57:13][INFO] service_name : FriendServiceRPC
+[2025-04-16 16:57:13][INFO] method_name : GetFriendList
+[2025-04-16 16:58:59][ERROR] first log message!
+[2025-04-16 16:58:59][INFO] /home/amoureux/amoureux/linux_rpc/example/callee/FriendService.cc-main-60
+[2025-04-16 16:58:59][INFO] service_name : FriendServiceRPC
+[2025-04-16 16:58:59][INFO] method_name : GetFriendList
+[2025-04-16 16:59:57][ERROR] first log message!
+[2025-04-16 16:59:57][INFO] /home/amoureux/amoureux/linux_rpc/example/callee/FriendService.cc-main-61
+[2025-04-16 16:59:57][INFO] service_name : FriendServiceRPC
+[2025-04-16 16:59:57][INFO] method_name : GetFriendList
+[2025-04-16 17:01:51][UNKNOWN] first log message!
+[2025-04-16 17:01:51][UNKNOWN] /home/amoureux/amoureux/linux_rpc/example/callee/FriendService.cc-main-61
+[2025-04-16 17:01:51][UNKNOWN] service_name : FriendServiceRPC
+[2025-04-16 17:01:51][UNKNOWN] method_name : GetFriendList
+[2025-04-16 17:03:10][ERROR] first log message!
+[2025-04-16 17:03:10][INFO] /home/amoureux/amoureux/linux_rpc/example/callee/FriendService.cc-main-61
+[2025-04-16 17:03:10][INFO] service_name : FriendServiceRPC
+[2025-04-16 17:03:10][INFO] method_name : GetFriendList
+[2025-04-16 17:03:28][ERROR] first log message!
+[2025-04-16 17:03:28][INFO] /home/amoureux/amoureux/linux_rpc/example/callee/FriendService.cc-main-61
+[2025-04-16 17:03:28][INFO] service_name : FriendServiceRPC
+[2025-04-16 17:03:28][INFO] method_name : GetFriendList
+[2025-04-16 17:03:45][ERROR] first log message!
+[2025-04-16 17:03:45][INFO] /home/amoureux/amoureux/linux_rpc/example/callee/FriendService.cc-main-61
+[2025-04-16 17:03:45][INFO] service_name : FriendServiceRPC
+[2025-04-16 17:03:45][INFO] method_name : GetFriendList
+[2025-04-16 17:06:18][INFO] service_name : FriendServiceRPC
+[2025-04-16 17:06:18][INFO] method_name : GetFriendList
+[2025-04-16 17:06:55][ERROR] first log message!
+[2025-04-16 17:06:55][ERROR] /home/amoureux/amoureux/linux_rpc/example/callee/FriendService.cc-main-61
+[2025-04-16 17:06:55][INFO] service_name : FriendServiceRPC
+[2025-04-16 17:06:55][INFO] method_name : GetFriendList
+[2025-04-16 17:07:25][ERROR] first log message!
+[2025-04-16 17:07:25][ERROR] /home/amoureux/amoureux/linux_rpc/example/callee/FriendService.cc-main-61
+[2025-04-16 17:07:25][INFO] service_name : FriendServiceRPC
+[2025-04-16 17:07:25][INFO] method_name : GetFriendList
+[2025-04-16 17:12:00][INFO]  first log message!
+[2025-04-16 17:12:00][ERROR] /home/amoureux/amoureux/linux_rpc/example/callee/FriendService.cc-main-61
+[2025-04-16 17:12:00][INFO]  service_name : FriendServiceRPC
+[2025-04-16 17:12:00][INFO]  method_name : GetFriendList

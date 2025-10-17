@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/consumer.dir/CallFriendService.cc.o CMakeFiles/consumer.dir/__/friend.pb.cc.o -o /home/amoureux/amoureux/linux_rpc/bin/consumer   -L/home/amoureux/amoureux/linux_rpc/lib  -Wl,-rpath,/home/amoureux/amoureux/linux_rpc/lib /home/amoureux/amoureux/linux_rpc/lib/liblinux_rpc.a -lprotobuf -lmuduo_net -lmuduo_base -lpthread -lzookeeper_mt 

@@ -1,0 +1,74 @@
+[
+{
+  "directory": "/home/amoureux/amoureux/linux_rpc/build/src",
+  "command": "/usr/bin/g++  -I/home/amoureux/amoureux/linux_rpc/src/include -I/home/amoureux/amoureux/linux_rpc/example -g -o CMakeFiles/linux_rpc.dir/Logger.cc.o -c /home/amoureux/amoureux/linux_rpc/src/Logger.cc",
+  "file": "/home/amoureux/amoureux/linux_rpc/src/Logger.cc",
+  "output": "src/CMakeFiles/linux_rpc.dir/Logger.cc.o"
+},
+{
+  "directory": "/home/amoureux/amoureux/linux_rpc/build/src",
+  "command": "/usr/bin/g++  -I/home/amoureux/amoureux/linux_rpc/src/include -I/home/amoureux/amoureux/linux_rpc/example -g -o CMakeFiles/linux_rpc.dir/MprpcApplication.cc.o -c /home/amoureux/amoureux/linux_rpc/src/MprpcApplication.cc",
+  "file": "/home/amoureux/amoureux/linux_rpc/src/MprpcApplication.cc",
+  "output": "src/CMakeFiles/linux_rpc.dir/MprpcApplication.cc.o"
+},
+{
+  "directory": "/home/amoureux/amoureux/linux_rpc/build/src",
+  "command": "/usr/bin/g++  -I/home/amoureux/amoureux/linux_rpc/src/include -I/home/amoureux/amoureux/linux_rpc/example -g -o CMakeFiles/linux_rpc.dir/MprpcChannel.cc.o -c /home/amoureux/amoureux/linux_rpc/src/MprpcChannel.cc",
+  "file": "/home/amoureux/amoureux/linux_rpc/src/MprpcChannel.cc",
+  "output": "src/CMakeFiles/linux_rpc.dir/MprpcChannel.cc.o"
+},
+{
+  "directory": "/home/amoureux/amoureux/linux_rpc/build/src",
+  "command": "/usr/bin/g++  -I/home/amoureux/amoureux/linux_rpc/src/include -I/home/amoureux/amoureux/linux_rpc/example -g -o CMakeFiles/linux_rpc.dir/MprpcConfig.cc.o -c /home/amoureux/amoureux/linux_rpc/src/MprpcConfig.cc",
+  "file": "/home/amoureux/amoureux/linux_rpc/src/MprpcConfig.cc",
+  "output": "src/CMakeFiles/linux_rpc.dir/MprpcConfig.cc.o"
+},
+{
+  "directory": "/home/amoureux/amoureux/linux_rpc/build/src",
+  "command": "/usr/bin/g++  -I/home/amoureux/amoureux/linux_rpc/src/include -I/home/amoureux/amoureux/linux_rpc/example -g -o CMakeFiles/linux_rpc.dir/MprpcContoller.cc.o -c /home/amoureux/amoureux/linux_rpc/src/MprpcContoller.cc",
+  "file": "/home/amoureux/amoureux/linux_rpc/src/MprpcContoller.cc",
+  "output": "src/CMakeFiles/linux_rpc.dir/MprpcContoller.cc.o"
+},
+{
+  "directory": "/home/amoureux/amoureux/linux_rpc/build/src",
+  "command": "/usr/bin/g++  -I/home/amoureux/amoureux/linux_rpc/src/include -I/home/amoureux/amoureux/linux_rpc/example -g -o CMakeFiles/linux_rpc.dir/RpcProvider.cc.o -c /home/amoureux/amoureux/linux_rpc/src/RpcProvider.cc",
+  "file": "/home/amoureux/amoureux/linux_rpc/src/RpcProvider.cc",
+  "output": "src/CMakeFiles/linux_rpc.dir/RpcProvider.cc.o"
+},
+{
+  "directory": "/home/amoureux/amoureux/linux_rpc/build/src",
+  "command": "/usr/bin/g++  -I/home/amoureux/amoureux/linux_rpc/src/include -I/home/amoureux/amoureux/linux_rpc/example -g -o CMakeFiles/linux_rpc.dir/ZooKeeper.cc.o -c /home/amoureux/amoureux/linux_rpc/src/ZooKeeper.cc",
+  "file": "/home/amoureux/amoureux/linux_rpc/src/ZooKeeper.cc",
+  "output": "src/CMakeFiles/linux_rpc.dir/ZooKeeper.cc.o"
+},
+{
+  "directory": "/home/amoureux/amoureux/linux_rpc/build/src",
+  "command": "/usr/bin/g++  -I/home/amoureux/amoureux/linux_rpc/src/include -I/home/amoureux/amoureux/linux_rpc/example -g -o CMakeFiles/linux_rpc.dir/rpcheader.pb.cc.o -c /home/amoureux/amoureux/linux_rpc/src/rpcheader.pb.cc",
+  "file": "/home/amoureux/amoureux/linux_rpc/src/rpcheader.pb.cc",
+  "output": "src/CMakeFiles/linux_rpc.dir/rpcheader.pb.cc.o"
+},
+{
+  "directory": "/home/amoureux/amoureux/linux_rpc/build/example/callee",
+  "command": "/usr/bin/g++  -I/home/amoureux/amoureux/linux_rpc/src/include -I/home/amoureux/amoureux/linux_rpc/example -g -o CMakeFiles/provider.dir/FriendService.cc.o -c /home/amoureux/amoureux/linux_rpc/example/callee/FriendService.cc",
+  "file": "/home/amoureux/amoureux/linux_rpc/example/callee/FriendService.cc",
+  "output": "example/callee/CMakeFiles/provider.dir/FriendService.cc.o"
+},
+{
+  "directory": "/home/amoureux/amoureux/linux_rpc/build/example/callee",
+  "command": "/usr/bin/g++  -I/home/amoureux/amoureux/linux_rpc/src/include -I/home/amoureux/amoureux/linux_rpc/example -g -o CMakeFiles/provider.dir/__/friend.pb.cc.o -c /home/amoureux/amoureux/linux_rpc/example/friend.pb.cc",
+  "file": "/home/amoureux/amoureux/linux_rpc/example/friend.pb.cc",
+  "output": "example/callee/CMakeFiles/provider.dir/__/friend.pb.cc.o"
+},
+{
+  "directory": "/home/amoureux/amoureux/linux_rpc/build/example/caller",
+  "command": "/usr/bin/g++  -I/home/amoureux/amoureux/linux_rpc/src/include -I/home/amoureux/amoureux/linux_rpc/example -g -o CMakeFiles/consumer.dir/CallFriendService.cc.o -c /home/amoureux/amoureux/linux_rpc/example/caller/CallFriendService.cc",
+  "file": "/home/amoureux/amoureux/linux_rpc/example/caller/CallFriendService.cc",
+  "output": "example/caller/CMakeFiles/consumer.dir/CallFriendService.cc.o"
+},
+{
+  "directory": "/home/amoureux/amoureux/linux_rpc/build/example/caller",
+  "command": "/usr/bin/g++  -I/home/amoureux/amoureux/linux_rpc/src/include -I/home/amoureux/amoureux/linux_rpc/example -g -o CMakeFiles/consumer.dir/__/friend.pb.cc.o -c /home/amoureux/amoureux/linux_rpc/example/friend.pb.cc",
+  "file": "/home/amoureux/amoureux/linux_rpc/example/friend.pb.cc",
+  "output": "example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o"
+}
+]

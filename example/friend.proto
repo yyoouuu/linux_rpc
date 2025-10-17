@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option cc_generic_services = true; 
+
+package fixbug;
+
+//message负责参数输入输出的序列化与反序列化，service负责提供rpc服务
+message ResultCode
+{
+    int32 errcode = 1;
+    bytes errmsg = 2;
+}
+
+message GetFriendListRequest
+{
+    uint32 userid = 1;
+}
+
+message GetFriendListResponse
+{
+    ResultCode result = 1;
+    repeated bytes friends = 2;
+}
+
+service FriendServiceRPC
+{
+    rpc GetFriendList(GetFriendListRequest) returns(GetFriendListResponse);
+}
