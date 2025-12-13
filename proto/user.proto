@@ -1,6 +1,6 @@
 syntax = "proto3";
 package amoureux_proto;
-
+import "rpcheader.proto";
 option cc_generic_services = true;
 
 message ResultCode

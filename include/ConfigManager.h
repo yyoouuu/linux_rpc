@@ -18,6 +18,7 @@ namespace amoureux
             //负责解析加载配置文件
             void LoadConfigFile(const char* config_file);
             //查询配置信息
-            amoureux::Endpoint client_select(const std::string key);
+            amoureux::Endpoint client_rbselect(const std::string key);
+            amoureux::Endpoint server_select(const std::string key);
     };
 }

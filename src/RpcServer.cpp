@@ -83,7 +83,7 @@ namespace amoureux
 
                 // 第三级目录，把 ip 和 port 拼成唯一节点名字
                 char child_node[128] = {0};
-                sprintf(child_node, "%s:%d", ip.c_str(), port);
+                sprintf(child_node, "%s:%d", endpoint.host.c_str(), endpoint.port);
 
                 // 构造最终的节点路径：/Service/Method/ip:port
                 std::string endpoint_path = method_path + "/" + child_node;
@@ -93,7 +93,7 @@ namespace amoureux
             }
         }
 
-        std::cout << "RpcProvider start service at ip :" << ip << " port :" << port << std::endl;
+        std::cout << "RpcProvider start service at ip :" << endpoint.host << " port :" << endpoint.port << std::endl;
 
         // 启动网络服务，监听端口，接收请求
         server.start();
@@ -131,7 +131,7 @@ namespace amoureux
 
         // 根据header_size读取数据头的 header_str(service_name,method_name,args_size)  得到rpc请求的详细信息
         std::string rpc_header_str = recv_buf.substr(4, header_size);
-        RpcHeader rpcheader;
+        amoureux_proto::RpcHeader rpcheader;
         std::string service_name;
         std::string method_name;
         uint32_t args_size;
