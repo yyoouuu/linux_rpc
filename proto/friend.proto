@@ -1,0 +1,46 @@
+syntax = "proto3";
+package amoureux_proto;
+
+option cc_generic_services = true;
+import "rpcheader.proto";
+message ResultCode
+{
+    int32 errcode = 1;
+    bytes errmsg = 2;
+}
+
+//用户信息结构
+message UserInfo {
+    string user_id = 1;//用户ID
+}
+//--------------------------------------
+//好友列表获取
+message GetFriendListReq {
+    string request_id = 1;          // 请求标识ID
+    optional string user_id = 2;    // 当前请求的发起者用户ID
+}
+message GetFriendListRsp {
+    string request_id = 1;
+    bool success = 2;
+    ResultCode result = 3; 
+    repeated UserInfo friend_list = 4; //要返回的用户列表
+}
+
+//--------------------------------------
+//好友删除
+message FriendRemoveReq {
+    string request_id = 1;
+    optional string user_id = 2; //当前用户ID
+    string peer_id = 3;          //要删除的好友ID
+}
+message FriendRemoveRsp {
+    string request_id = 1;
+    bool success = 2;
+    ResultCode result = 3; 
+}
+
+
+service FriendService {
+    rpc GetFriendList(GetFriendListReq) returns (GetFriendListRsp);
+    rpc FriendRemove(FriendRemoveReq) returns (FriendRemoveRsp);
+}

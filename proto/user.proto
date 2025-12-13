@@ -1,0 +1,41 @@
+syntax = "proto3";
+package amoureux_proto;
+
+option cc_generic_services = true;
+
+message ResultCode
+{
+    int32 errcode = 1;
+    bytes errmsg = 2;
+}
+
+//----------------------------
+//用户名注册   
+message UserRegisterReq {
+    string request_id = 1;
+    string nickname = 2;
+    string password = 3;
+}
+message UserRegisterRsp {
+    string request_id = 1;
+    bool success = 2;
+    ResultCode result = 3;
+}
+//----------------------------
+//用户名登录 
+message UserLoginReq {
+    string request_id = 1;
+    string nickname = 2;
+    string password = 3;
+}
+message UserLoginRsp {
+    string request_id = 1;
+    bool success = 2;
+    ResultCode result = 3;
+}
+
+
+service UserService {
+    rpc UserRegister(UserRegisterReq) returns (UserRegisterRsp);
+    rpc UserLogin(UserLoginReq) returns (UserLoginRsp);
+}
