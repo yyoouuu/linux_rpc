@@ -4,6 +4,7 @@
 
 namespace amoureux
 {
+    //全局唯一实例（单例）:构造函数私有化，禁用拷贝和移动构造，懒汉式加载(c++11后线程安全)，GetInstance()获取静态实例程序结束后自动释放
     class RpcApplication
     {
     private:

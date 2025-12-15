@@ -17,7 +17,6 @@ namespace amoureux
     {
     private:
         muduo::net::EventLoop _eventloop;
-        ConfigManager _configManager;
         //service服务类型信息
         struct ServiceInfo
         {

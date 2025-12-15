@@ -48,7 +48,7 @@ namespace amoureux
         ZkClient *client = (ZkClient *)data;
         client->_rc = rc;
         client->_children.clear();
-
+        
         if (rc == ZOK && strings != nullptr)
         {
             for (int i = 0; i < strings->count; ++i)
@@ -82,7 +82,7 @@ amoureux::ZkClient::~ZkClient()
 void amoureux::ZkClient::Start()
 {
     // 从配置文件中获取zookeeper的ip地址和端口号
-    Endpoint endpoint = amoureux::RpcApplication::GetInstance().GetConfig().server_select("/server1/method1");
+    Endpoint endpoint = amoureux::RpcApplication::GetInstance().GetConfig().zk_ip_select("/zookeeper/ip_port");
         
     std::string connstr = endpoint.host + ":" + std::to_string(endpoint.port);
     // 初始化
@@ -98,7 +98,6 @@ void amoureux::ZkClient::Start()
     zoo_set_context(_zhandle, &sem);
     sem_wait(&sem);
     sem_destroy(&sem);
-
     std::cout << "zookeeper_init success!" << std::endl;
 }
 

@@ -15,7 +15,7 @@ using namespace amoureux;
 header_size + service_name method_name args_size + args_str
 */
 //所有通过stub代理对象调用的rpc方法，都走到了这里，统一做rpc方法的数据序列化和网络发送
-void MprpcChannel::CallMethod(const google::protobuf::MethodDescriptor* method,
+void RpcClient::CallMethod(const google::protobuf::MethodDescriptor* method,
     google::protobuf::RpcController* controller,
     const google::protobuf::Message* request,
     google::protobuf::Message* response,
@@ -87,7 +87,7 @@ void MprpcChannel::CallMethod(const google::protobuf::MethodDescriptor* method,
     }
     
     // 从配置文件中读取服务端 IP 和端口
-    Endpoint endpoint = amoureux::RpcApplication::GetInstance().GetConfig().client_rbselect("/server1/method1");
+    Endpoint endpoint = amoureux::RpcApplication::GetInstance().GetConfig().client_rbselect("/UserService/UserLogin");
 
     struct sockaddr_in serveraddr;
     socklen_t serveraddr_len = sizeof(serveraddr);

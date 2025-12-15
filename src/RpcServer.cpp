@@ -61,7 +61,7 @@ namespace amoureux
                       std::placeholders::_1, std::placeholders::_2, std::placeholders::_3));
 
         // 设置工作线程数量（业务线程 + IO线程）
-        server.setThreadNum(4);
+        server.setThreadNum(16);
 
         ZkClient zkCli; // 创建一个 ZkClient 实例，用于与 ZooKeeper 服务进行通信。
         zkCli.Start();  // 启动 ZkClient，建立与 ZooKeeper 的连接。
@@ -97,7 +97,6 @@ namespace amoureux
 
         // 启动网络服务，监听端口，接收请求
         server.start();
-
         // 启动事件循环（核心 IO 模块）
         _eventloop.loop();
     }

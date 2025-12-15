@@ -1,0 +1,9 @@
+[2025-12-13 22:04:01][INFO]  service_name : UserService
+[2025-12-13 22:04:01][INFO]  method_name : UserRegister
+[2025-12-13 22:04:01][INFO]  method_name : UserLogin
+[2025-12-13 22:14:59][INFO]  service_name : UserService
+[2025-12-13 22:14:59][INFO]  method_name : UserRegister
+[2025-12-13 22:14:59][INFO]  method_name : UserLogin
+[2025-12-13 22:20:26][INFO]  service_name : UserService
+[2025-12-13 22:20:26][INFO]  method_name : UserRegister
+[2025-12-13 22:20:26][INFO]  method_name : UserLogin

@@ -38,7 +38,7 @@ namespace amoureux
             }
         }
 
-        // 开始加载配置文件 rpcserver_ip rpcserver_port zookeeper_ip zookeeper_port
+        // 开始加载配置文件 
         _config.LoadConfigFile(config_file.c_str());
     }
     RpcApplication &RpcApplication::GetInstance()

@@ -51,7 +51,7 @@ namespace amoureux
         char c[1024] = {0};                                \
         snprintf(c, sizeof(c), "[INFO]  " logmsgformat, ##__VA_ARGS__);  \
         logger.Log(c);                                     \
-    } while (0)
+    } while (0) \
 
 #define LOG_WARN(logmsgformat, ...)                         \
     do                                                     \
@@ -61,7 +61,7 @@ namespace amoureux
         char c[1024] = {0};                                \
         snprintf(c, sizeof(c), "[WARN] " logmsgformat, ##__VA_ARGS__); \
         logger.Log(c);                                     \
-    } while (0)
+    } while (0) \
 
 #define LOG_ERROR(logmsgformat, ...)                        \
     do                                                     \
@@ -71,7 +71,7 @@ namespace amoureux
         char c[1024] = {0};                                \
         snprintf(c, sizeof(c), "[ERROR]  " logmsgformat, ##__VA_ARGS__);  \
         logger.Log(c);                                     \
-    } while (0)
+    } while (0) \
 
 #define LOG_FATAL(logmsgformat, ...)                         \
     do                                                     \
@@ -81,4 +81,4 @@ namespace amoureux
         char c[1024] = {0};                                \
         snprintf(c, sizeof(c), "[FATAL] " logmsgformat, ##__VA_ARGS__); \
         logger.Log(c);                                     \
-    } while (0)
+    } while (0)\

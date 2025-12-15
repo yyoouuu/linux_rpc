@@ -65,6 +65,8 @@
         "span": "cpp",
         "charconv": "cpp",
         "format": "cpp",
-        "bitset": "cpp"
+        "bitset": "cpp",
+        "typeindex": "cpp",
+        "stack": "cpp"
     }
 }

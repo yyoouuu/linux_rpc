@@ -6,7 +6,7 @@
 #include "LoadBalancer.h"
 namespace amoureux
 {
-    class MprpcChannel : public google::protobuf::RpcChannel
+    class RpcClient : public google::protobuf::RpcChannel
     {
     private:
 
