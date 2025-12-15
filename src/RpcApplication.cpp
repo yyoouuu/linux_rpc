@@ -1,6 +1,7 @@
 #include "RpcApplication.h"
 #include <iostream>
 #include <unistd.h>
+
 namespace amoureux
 {
     ConfigManager RpcApplication::_config;
