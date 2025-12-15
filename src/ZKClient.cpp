@@ -2,6 +2,7 @@
 #include "RpcApplication.h"
 #include <iostream>
 
+
 // 全局 Watcher 回调函数：服务发现、节点监听、上下线实时同步、心跳与重连检测
 void global_watcher(zhandle_t *zh, int type, int state, const char *path, void *watcherCtx)
 {
@@ -48,7 +49,7 @@ namespace amoureux
         ZkClient *client = (ZkClient *)data;
         client->_rc = rc;
         client->_children.clear();
-        
+
         if (rc == ZOK && strings != nullptr)
         {
             for (int i = 0; i < strings->count; ++i)
