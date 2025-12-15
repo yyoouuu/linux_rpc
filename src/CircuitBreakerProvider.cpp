@@ -1,6 +1,5 @@
 #include "CircuitBraekerProvider.h"
 
-
 // 根据服务名称获取或创建熔断器实例
 std::shared_ptr<CircuitBreaker> CircuitBreakerProvider::getCircuitBreaker(const std::string& serviceName) {
     std::lock_guard<std::mutex> lock(mutex_);  // 加锁，确保线程安全
