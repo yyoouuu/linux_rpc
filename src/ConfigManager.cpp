@@ -5,6 +5,7 @@
 #include <fstream>
 #include <algorithm>
 
+
 void amoureux::ConfigManager::LoadConfigFile(const char* config_file) 
 {
     FILE *pf = fopen(config_file, "r");
