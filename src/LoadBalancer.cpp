@@ -3,6 +3,7 @@
 #include <chrono>
 #include <random>
 
+
 namespace amoureux {
 
 Endpoint RoundRobinLoadBalancer::Select(const std::string& service, const std::vector<Endpoint>& endpoints) {
