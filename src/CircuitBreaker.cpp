@@ -1,5 +1,6 @@
 #include "CircuitBreaker.h"
 using namespace amoureux;
+
 // 构造函数，初始化熔断器的状态、阈值和时间参数
 CircuitBreaker::CircuitBreaker(int failureThreshold, double halfOpenSuccessRate, long retryTimePeriod)
     : state(CircuitBreakerState::CLOSED),  // 初始状态为关闭
